@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   var imgcardalt = new Array(32);
 
-  var pares; //Pares = (MAX * MAX) / 2
+  var pares;
   var MAX;
   var zoomlevel;
 
@@ -130,7 +130,6 @@ $(document).ready(function () {
   }
 
   function gerarcartas() {
-    //Gerando numeros
 
     for (var i = 1; i <= pares; i++) {
       numbers.push(i, i);
@@ -145,14 +144,13 @@ $(document).ready(function () {
   }
 
   function embaralharcartas() {
-    //Embaralhando números
+
     numbers.sort(function () {
       return 0.5 - Math.random();
     });
   }
 
   function tabuleiro() {
-    //MATRIZ DO TABULEIRO
 
     for (var i = 0; i < MAX; i++) {
       tabela[i] = [];
@@ -167,8 +165,6 @@ $(document).ready(function () {
         tabela[i][j] = numbers[i * MAX + j];
       }
     }
-
-    //Guardando valores da matriz em variaveis
 
     for (i = 0; i < MAX; i++) {
       for (j = 0; j < MAX; j++) {
@@ -243,8 +239,6 @@ $(document).ready(function () {
   memoria();
 
   //__________________________________________________________//
-
-  //Cliques
 
   tentativa1 = 0;
   armazenador = 0;
@@ -437,17 +431,14 @@ $(document).ready(function () {
 
       idbox1 = idcards;
 
-      //Talvez seja removido
       $("#" + idbox1).attr("class", "cartasviradas");
 
-      //ATIVANDO 2ND CLIQUE
       primeiroclique = false;
 
       //CLIQUE 2
     } else {
       var idcards = $(this).attr("id");
 
-      //Mesma carta
       if (cartaAtual.attr("id") === idcards) {
         return;
       }
@@ -618,7 +609,6 @@ $(document).ready(function () {
           break;
       }
 
-      //Talvez seja removido
       $("#" + idbox2).attr("class", "cartasviradas");
 
       if (armazenador === tentativa2) {

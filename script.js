@@ -205,7 +205,7 @@ $(document).ready(function () {
         imgcards.classList.add("cartas");
         var imgID = (divcont - 1) * MAX + j;
         imgcards.setAttribute("id", "carta" + imgID);
-        imgcards.setAttribute("src", "costas.png");
+        imgcards.setAttribute("src", "images/" + "costas.png");
         imgcards.setAttribute("width", "200");
         imgcards.setAttribute("height", "200");
 
@@ -272,162 +272,162 @@ $(document).ready(function () {
 
       switch (posicoes) {
         case 1:
-          $(this).attr("src",  imagens[0] + ".png");
+          $(this).attr("src", "images/" + imagens[0] + ".png");
 
           break;
 
         case 2:
-          $(this).attr("src", imagens[1] + ".png");
+          $(this).attr("src", "images/" + imagens[1] + ".png");
 
           break;
 
         case 3:
-          $(this).attr("src", imagens[2] + ".png");
+          $(this).attr("src", "images/" + imagens[2] + ".png");
 
           break;
 
         case 4:
-          $(this).attr("src", imagens[3] + ".png");
+          $(this).attr("src", "images/" + imagens[3] + ".png");
 
           break;
 
         case 5:
-          $(this).attr("src", imagens[4] + ".png");
+          $(this).attr("src", "images/" + imagens[4] + ".png");
 
           break;
 
         case 6:
-          $(this).attr("src", imagens[5] + ".png");
+          $(this).attr("src", "images/" + imagens[5] + ".png");
 
           break;
 
         case 7:
-          $(this).attr("src", imagens[6] + ".png");
+          $(this).attr("src", "images/" + imagens[6] + ".png");
 
           break;
 
         case 8:
-          $(this).attr("src", imagens[7] + ".png");
+          $(this).attr("src", "images/" + imagens[7] + ".png");
 
           break;
 
         case 9:
-          $(this).attr("src", imagens[8] + ".png");
+          $(this).attr("src", "images/" + imagens[8] + ".png");
 
           break;
 
         case 10:
-          $(this).attr("src", imagens[9] + ".png");
+          $(this).attr("src", "images/" + imagens[9] + ".png");
 
           break;
 
         case 11:
-          $(this).attr("src", imagens[10] + ".png");
+          $(this).attr("src", "images/" + imagens[10] + ".png");
 
           break;
 
         case 12:
-          $(this).attr("src", imagens[11] + ".png");
+          $(this).attr("src", "images/" + imagens[11] + ".png");
 
           break;
 
         case 13:
-          $(this).attr("src", imagens[12] + ".png");
+          $(this).attr("src", "images/" + imagens[12] + ".png");
 
           break;
 
         case 14:
-          $(this).attr("src", imagens[13] + ".png");
+          $(this).attr("src", "images/" + imagens[13] + ".png");
 
           break;
 
         case 15:
-          $(this).attr("src", imagens[14] + ".png");
+          $(this).attr("src", "images/" + imagens[14] + ".png");
 
           break;
 
         case 16:
-          $(this).attr("src", imagens[15] + ".png");
+          $(this).attr("src", "images/" + imagens[15] + ".png");
 
           break;
 
         case 17:
-          $(this).attr("src", imagens[16] + ".png");
+          $(this).attr("src", "images/" + imagens[16] + ".png");
 
           break;
 
         case 18:
-          $(this).attr("src", imagens[17] + ".png");
+          $(this).attr("src", "images/" + imagens[17] + ".png");
 
           break;
 
         case 19:
-          $(this).attr("src", imagens[18] + ".png");
+          $(this).attr("src", "images/" + imagens[18] + ".png");
 
           break;
 
         case 20:
-          $(this).attr("src", imagens[19] + ".png");
+          $(this).attr("src", "images/" + imagens[19] + ".png");
 
           break;
 
         case 21:
-          $(this).attr("src", imagens[20] + ".png");
+          $(this).attr("src", "images/" + imagens[20] + ".png");
 
           break;
 
         case 22:
-          $(this).attr("src", imagens[21] + ".png");
+          $(this).attr("src", "images/" + imagens[21] + ".png");
 
           break;
 
         case 23:
-          $(this).attr("src", imagens[22] + ".png");
+          $(this).attr("src", "images/" + imagens[22] + ".png");
 
           break;
 
         case 24:
-          $(this).attr("src", imagens[23] + ".png");
+          $(this).attr("src", "images/" + imagens[23] + ".png");
 
           break;
 
         case 25:
-          $(this).attr("src", imagens[24] + ".png");
+          $(this).attr("src", "images/" + imagens[24] + ".png");
 
           break;
 
         case 26:
-          $(this).attr("src", imagens[25] + ".png");
+          $(this).attr("src", "images/" + imagens[25] + ".png");
 
           break;
 
         case 27:
-          $(this).attr("src", imagens[26] + ".png");
+          $(this).attr("src", "images/" + imagens[26] + ".png");
 
           break;
 
         case 28:
-          $(this).attr("src", imagens[27] + ".png");
+          $(this).attr("src", "images/" + imagens[27] + ".png");
 
           break;
 
         case 29:
-          $(this).attr("src", imagens[28] + ".png");
+          $(this).attr("src", "images/" + imagens[28] + ".png");
 
           break;
 
         case 30:
-          $(this).attr("src", imagens[29] + ".png");
+          $(this).attr("src", "images/" + imagens[29] + ".png");
 
           break;
 
         case 31:
-          $(this).attr("src", imagens[30] + ".png");
+          $(this).attr("src", "images/" + imagens[30] + ".png");
 
           break;
 
         case 32:
-          $(this).attr("src", imagens[31] + ".png");
+          $(this).attr("src", "images/" + imagens[31] + ".png");
 
           break;
       }
@@ -458,162 +458,162 @@ $(document).ready(function () {
 
       switch (posicoes) {
         case 1:
-          $(this).attr("src", imagens[0] + ".png");
+          $(this).attr("src", "images/" + imagens[0] + ".png");
 
           break;
 
         case 2:
-          $(this).attr("src", imagens[1] + ".png");
+          $(this).attr("src", "images/" + imagens[1] + ".png");
 
           break;
 
         case 3:
-          $(this).attr("src", imagens[2] + ".png");
+          $(this).attr("src", "images/" + imagens[2] + ".png");
 
           break;
 
         case 4:
-          $(this).attr("src", imagens[3] + ".png");
+          $(this).attr("src", "images/" + imagens[3] + ".png");
 
           break;
 
         case 5:
-          $(this).attr("src", imagens[4] + ".png");
+          $(this).attr("src", "images/" + imagens[4] + ".png");
 
           break;
 
         case 6:
-          $(this).attr("src", imagens[5] + ".png");
+          $(this).attr("src", "images/" + imagens[5] + ".png");
 
           break;
 
         case 7:
-          $(this).attr("src", imagens[6] + ".png");
+          $(this).attr("src", "images/" + imagens[6] + ".png");
 
           break;
 
         case 8:
-          $(this).attr("src", imagens[7] + ".png");
+          $(this).attr("src", "images/" + imagens[7] + ".png");
 
           break;
 
         case 9:
-          $(this).attr("src", imagens[8] + ".png");
+          $(this).attr("src", "images/" + imagens[8] + ".png");
 
           break;
 
         case 10:
-          $(this).attr("src", imagens[9] + ".png");
+          $(this).attr("src", "images/" + imagens[9] + ".png");
 
           break;
 
         case 11:
-          $(this).attr("src", imagens[10] + ".png");
+          $(this).attr("src", "images/" + imagens[10] + ".png");
 
           break;
 
         case 12:
-          $(this).attr("src", imagens[11] + ".png");
+          $(this).attr("src", "images/" + imagens[11] + ".png");
 
           break;
 
         case 13:
-          $(this).attr("src", imagens[12] + ".png");
+          $(this).attr("src", "images/" + imagens[12] + ".png");
 
           break;
 
         case 14:
-          $(this).attr("src", imagens[13] + ".png");
+          $(this).attr("src", "images/" + imagens[13] + ".png");
 
           break;
 
         case 15:
-          $(this).attr("src", imagens[14] + ".png");
+          $(this).attr("src", "images/" + imagens[14] + ".png");
 
           break;
 
         case 16:
-          $(this).attr("src", imagens[15] + ".png");
+          $(this).attr("src", "images/" + imagens[15] + ".png");
 
           break;
 
         case 17:
-          $(this).attr("src", imagens[16] + ".png");
+          $(this).attr("src", "images/" + imagens[16] + ".png");
 
           break;
 
         case 18:
-          $(this).attr("src", imagens[17] + ".png");
+          $(this).attr("src", "images/" + imagens[17] + ".png");
 
           break;
 
         case 19:
-          $(this).attr("src", imagens[18] + ".png");
+          $(this).attr("src", "images/" + imagens[18] + ".png");
 
           break;
 
         case 20:
-          $(this).attr("src", imagens[19] + ".png");
+          $(this).attr("src", "images/" + imagens[19] + ".png");
 
           break;
 
         case 21:
-          $(this).attr("src", imagens[20] + ".png");
+          $(this).attr("src", "images/" + imagens[20] + ".png");
 
           break;
 
         case 22:
-          $(this).attr("src", imagens[21] + ".png");
+          $(this).attr("src", "images/" + imagens[21] + ".png");
 
           break;
 
         case 23:
-          $(this).attr("src", imagens[22] + ".png");
+          $(this).attr("src", "images/" + imagens[22] + ".png");
 
           break;
 
         case 24:
-          $(this).attr("src", imagens[23] + ".png");
+          $(this).attr("src", "images/" + imagens[23] + ".png");
 
           break;
 
         case 25:
-          $(this).attr("src", imagens[24] + ".png");
+          $(this).attr("src", "images/" + imagens[24] + ".png");
 
           break;
 
         case 26:
-          $(this).attr("src", imagens[25] + ".png");
+          $(this).attr("src", "images/" + imagens[25] + ".png");
 
           break;
 
         case 27:
-          $(this).attr("src", imagens[26] + ".png");
+          $(this).attr("src", "images/" + imagens[26] + ".png");
 
           break;
 
         case 28:
-          $(this).attr("src", imagens[27] + ".png");
+          $(this).attr("src", "images/" + imagens[27] + ".png");
 
           break;
 
         case 29:
-          $(this).attr("src", imagens[28] + ".png");
+          $(this).attr("src", "images/" + imagens[28] + ".png");
 
           break;
 
         case 30:
-          $(this).attr("src", imagens[29] + ".png");
+          $(this).attr("src", "images/" + imagens[29] + ".png");
 
           break;
 
         case 31:
-          $(this).attr("src", imagens[30] + ".png");
+          $(this).attr("src", "images/" + imagens[30] + ".png");
 
           break;
 
         case 32:
-          $(this).attr("src", imagens[31] + ".png");
+          $(this).attr("src", "images/" + imagens[31] + ".png");
 
           break;
       }
@@ -641,9 +641,9 @@ $(document).ready(function () {
           $("#" + idbox2).attr("class", "cartas");
           $("#" + idbox1).attr("class", "cartas");
 
-          $this.attr("src", "costas.png");
+          $this.attr("src", "images/" + "costas.png");
 
-          cartaAtual.attr("src", "costas.png"); // <---- ALGUM PROBLEMA DESCONHECIDO NESSA LINHA
+          cartaAtual.attr("src", "images/" + "costas.png"); // <---- ALGUM PROBLEMA DESCONHECIDO NESSA LINHA
 
           cartaAtual = null;
           carta = null;

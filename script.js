@@ -643,7 +643,7 @@ $(document).ready(function () {
 
           $this.attr("src", "images/" + "costas.png");
 
-          cartaAtual.attr("src", "images/" + "costas.png"); // <---- ALGUM PROBLEMA DESCONHECIDO NESSA LINHA
+          cartaAtual.attr("src", "images/" + "costas.png");
 
           cartaAtual = null;
           carta = null;
